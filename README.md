@@ -1,6 +1,6 @@
 # Slides from talk on node.js.
 
-### Karan Goel, 02.20.2014
+### Karan Goel, 12.17.2014
 
 All of this week's session was done using open source software.
 
@@ -37,3 +37,4 @@ $ grunt serve
 8. Open <http://localhost:8000> to view your presentation
 
 You can change the port by using `grunt serve --port 8001`.
+
