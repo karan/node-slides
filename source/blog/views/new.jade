@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  form(action="/new", method="post")
+    input(name="title", width="80")
+    br
+    br
+    textarea(name="content", rows="15", cols="80")
+    br
+    br
+    input(type="Submit", value="Submit")

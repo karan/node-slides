@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  a(href="/new") New post
+
+  each post in posts
+    a(href="/#{post._id}")
+      h3= post.title
